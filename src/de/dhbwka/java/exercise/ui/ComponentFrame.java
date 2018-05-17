@@ -16,37 +16,44 @@ import java.awt.*;
 
 public class ComponentFrame {
 
-    JFrame j;
+    JFrame frame;
 
     public ComponentFrame() {
-        
-        j = new JFrame("Serveral basic Swing components");
-        j.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-        JPanel jp = new JPanel();
+        // Fenstertitel kann mitgegeben werden
+        frame = new JFrame("Serveral basic Swing components");
 
-        jp.add(new JLabel("JLabel"));
-        jp.add(new JTextField("JTextField"));
-        jp.add(new JButton("JButton"));
-        jp.add(new JToggleButton("JToggleButton"));
-        jp.add(new JCheckBox("JCheckBox"));
+        // Programm beenden wenn das Fenster geschlossen wird
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
+        // Neues Panel (Standardmäßig mit FlowLayout)
+        JPanel panel_oben = new JPanel();
+
+        // Elemente zum Panel hinzufügen
+        panel_oben.add(new JLabel("JLabel"));
+        panel_oben.add(new JTextField("JTextField"));
+        panel_oben.add(new JButton("JButton"));
+        panel_oben.add(new JToggleButton("JToggleButton"));
+        panel_oben.add(new JCheckBox("JCheckBox"));
+
+        // Droptown Liste betanken
         JComboBox JComboBox = new JComboBox();
         JComboBox.addItem("Servus");
-        JComboBox.addItem("12345");
+        JComboBox.addItem("BlaBla");
+        panel_oben.add(JComboBox);
 
-        jp.add(JComboBox);
 
-        JPanel jp2 = new JPanel();
+        JPanel panel_unten = new JPanel();
 
+        // Radio Buttons erstellen
         JRadioButton r1 = new JRadioButton("Hallo1");
         JRadioButton r2 = new JRadioButton("Hallo2");
         JRadioButton r3 = new JRadioButton("Hallo3");
 
         // Buttons zum Panel hinzufügen
-        jp2.add(r1);
-        jp2.add(r2);
-        jp2.add(r3);
+        panel_unten.add(r1);
+        panel_unten.add(r2);
+        panel_unten.add(r3);
 
         // radio Buttons gruppieren
         ButtonGroup group = new ButtonGroup();
@@ -55,14 +62,15 @@ public class ComponentFrame {
         group.add(r3);
 
         // Beide Layouts hinzufügen
-        j.add(jp, BorderLayout.NORTH);
-        j.add(jp2, BorderLayout.SOUTH);
+        frame.add(panel_oben, BorderLayout.NORTH);
+        frame.add(panel_unten, BorderLayout.SOUTH);
 
-        j.pack(); // Automatische Größe des Fensters
-        j.setVisible(true);
+        frame.pack(); // Automatische Größe des Fensters
+        frame.setVisible(true); // Fenster anzeigen
     }
 
     public static void main(String[] args) {
         new ComponentFrame();
     }
+    
 }
