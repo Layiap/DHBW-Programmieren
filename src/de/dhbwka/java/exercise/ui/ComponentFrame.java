@@ -72,5 +72,5 @@ public class ComponentFrame {
     public static void main(String[] args) {
         new ComponentFrame();
     }
-    
+
 }
