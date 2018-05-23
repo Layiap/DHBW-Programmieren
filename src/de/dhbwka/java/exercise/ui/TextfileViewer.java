@@ -1,5 +1,16 @@
 package de.dhbwka.java.exercise.ui;
 
+/*
+ * Grafische Benutzeroberflächen (GUI/Swing) (2)
+ *
+ * #######################
+ * #                     #
+ * #    Matthias Häfele  #
+ * #     2018.05.23      #
+ * #                     #
+ * #######################
+ */
+
 import javax.swing.*;
 import javax.swing.filechooser.FileNameExtensionFilter;
 import java.io.*;
@@ -10,12 +21,14 @@ public class TextfileViewer {
         File file = new File(filepath);
         StringBuffer fileInput = new StringBuffer();
 
+        String[] fileInput10 = null;
+
         // Datei einlesen
         try (BufferedReader br = new BufferedReader(new FileReader(file))) {
 
             // Counter für die ersten 10 Zeilen
             int c = 0;
-            String[] fileInput10 = new String[10];
+            fileInput10 = new String[10];
 
             while (br.ready()) {
 
@@ -25,6 +38,7 @@ public class TextfileViewer {
                 // 10er Array befüllen
                 if (c < 10) {
                     fileInput10[c] = s;
+                    c++;
                 }
             }
         } catch (FileNotFoundException e) {
@@ -33,23 +47,41 @@ public class TextfileViewer {
             e.printStackTrace();
         }
 
-        JFrame jFrametextBox = new JFrame(filepath);
-        jFrametextBox.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        JFrame jFrame_textArea = new JFrame(filepath);
+        jFrame_textArea.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         // Textbox
         JTextArea jTextArea = new JTextArea();
         jTextArea.setText(fileInput.toString());
 
-        JScrollBar scroll = new JScrollBar(jTextArea);
-        jFrametextBox.add(scroll);
+        // Scroll Pane mit der TextArea initialisieren
+        JScrollPane jScrollPane = new JScrollPane(jTextArea);
 
-        // TODO
+        //jFrame.add(jTextArea);
+        // (!) Nicht die TextArea sondern die ScrollPane hinzufügen
+        jFrame_textArea.add(jScrollPane);
 
-        jFrametextBox.add(jTextArea);
-        jFrametextBox.pack();
-        jFrametextBox.setSize(300, 300);
-        jFrametextBox.setVisible(true);
+        //jFrame.pack();
+        jFrame_textArea.setSize(300, 300);
+        jFrame_textArea.setVisible(true);
 
+
+        JFrame jFrame_labels = new JFrame(filepath);
+        jFrame_labels.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+        // Jpanel mit Box Layout
+        JPanel jp = new JPanel();
+        jp.setLayout(new BoxLayout(jp, BoxLayout.Y_AXIS));
+
+        // Jpanel betanken
+        for (String s : fileInput10) {
+            jp.add(new JLabel(s));
+        }
+
+        jFrame_labels.add(jp);
+
+        jFrame_labels.setSize(300, 300);
+        jFrame_labels.setVisible(true);
     }
 
     public static void main(String[] args) {
