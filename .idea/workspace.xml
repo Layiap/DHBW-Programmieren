@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/de/dhbwka/java/exercise/ui/EditorSimple.java" line="13" />
+    <bookmark url="file://$PROJECT_DIR$/src/de/dhbwka/java/exercise/ui/EditorSimple.java" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5ce059aa-446e-4de5-abbd-e1fd1e127065" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/de/dhbwka/java/exercise/ui/CurrencyCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/de/dhbwka/java/exercise/ui/EditorSimple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/de/dhbwka/java/exercise/classes/abstr/Race.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/de/dhbwka/java/exercise/classes/abstr/Vehicle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DHBW-Programmieren/de/dhbwka/java/exercise/ui/TextfileViewer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DHBW-Programmieren/de/dhbwka/java/exercise/ui/TextfileViewer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/de/dhbwka/java/exercise/ui/TextfileViewer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/dhbwka/java/exercise/ui/TextfileViewer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DHBW-Programmieren/de/dhbwka/java/exercise/ui/EditorSimple.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DHBW-Programmieren/de/dhbwka/java/exercise/ui/EditorSimple.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,25 +20,50 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="EditorSimple.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/de/dhbwka/java/exercise/ui/EditorSimple.java">
+      <file leaf-file-name="Race.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/de/dhbwka/java/exercise/classes/abstr/Race.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-104">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="-116">
+              <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Vehicle.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/de/dhbwka/java/exercise/classes/abstr/Vehicle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="331">
+              <caret line="63" column="139" selection-start-line="63" selection-start-column="139" selection-end-line="63" selection-end-column="139" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#379#380#0" expanded="true" />
-                <element signature="e#415#416#0" expanded="true" />
+                <element signature="e#236#237#0" expanded="true" />
+                <element signature="e#285#286#0" expanded="true" />
+                <element signature="e#503#504#0" expanded="true" />
+                <element signature="e#574#575#0" expanded="true" />
+                <element signature="e#1131#1132#0" expanded="true" />
+                <element signature="e#1174#1175#0" expanded="true" />
+                <element signature="e#1263#1264#0" expanded="true" />
+                <element signature="e#1307#1308#0" expanded="true" />
+                <element signature="e#1368#1369#0" expanded="true" />
+                <element signature="e#1418#1419#0" expanded="true" />
+                <element signature="e#1515#1516#0" expanded="true" />
+                <element signature="e#1559#1560#0" expanded="true" />
+                <element signature="e#1835#1836#0" expanded="true" />
+                <element signature="e#1875#1876#0" expanded="true" />
+                <element signature="e#1930#1931#0" expanded="true" />
+                <element signature="e#1980#1981#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CurrencyCalculator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/de/dhbwka/java/exercise/ui/CurrencyCalculator.java">
+      <file leaf-file-name="TextfileViewer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/de/dhbwka/java/exercise/ui/TextfileViewer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="2" selection-start-line="2" selection-end-line="11" selection-end-column="3" />
+            <state relative-caret-position="187">
+              <caret line="11" column="3" lean-forward="true" selection-start-line="2" selection-end-line="11" selection-end-column="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -72,9 +95,11 @@
         <option value="$PROJECT_DIR$/src/de/dhbwka/java/exercise/ui/ComponentFrame.java" />
         <option value="$PROJECT_DIR$/src/de/dhbwka/java/exercise/io/Files.java" />
         <option value="$PROJECT_DIR$/src/de/dhbwka/java/exercise/ui/TextFrame.java" />
-        <option value="$PROJECT_DIR$/src/de/dhbwka/java/exercise/ui/TextfileViewer.java" />
         <option value="$PROJECT_DIR$/src/de/dhbwka/java/exercise/ui/CurrencyCalculator.java" />
         <option value="$PROJECT_DIR$/src/de/dhbwka/java/exercise/ui/EditorSimple.java" />
+        <option value="$PROJECT_DIR$/src/de/dhbwka/java/exercise/ui/TextfileViewer.java" />
+        <option value="$PROJECT_DIR$/src/de/dhbwka/java/exercise/classes/abstr/Race.java" />
+        <option value="$PROJECT_DIR$/src/de/dhbwka/java/exercise/classes/abstr/Vehicle.java" />
       </list>
     </option>
   </component>
@@ -88,10 +113,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-11" />
-    <option name="y" value="60" />
-    <option name="width" value="1940" />
-    <option name="height" value="2111" />
+    <option name="x" value="46" />
+    <option name="y" value="26" />
+    <option name="width" value="1939" />
+    <option name="height" value="1049" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -101,8 +126,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -134,7 +159,16 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="exercise" type="462c0819:PsiDirectoryNode" />
-              <item name="strings" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DHBW-Programmieren" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DHBW-Programmieren" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="exercise" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="abstr" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DHBW-Programmieren" type="b2602c69:ProjectViewProjectNode" />
@@ -148,7 +182,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -171,7 +205,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.EditorSimple">
+  <component name="RunManager" selected="Application.Race">
+    <configuration name="ComponentFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.dhbwka.java.exercise.ui.ComponentFrame" />
+      <module name="DHBW-Programmieren" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.dhbwka.java.exercise.ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="CurrencyCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="de.dhbwka.java.exercise.ui.CurrencyCalculator" />
       <module name="DHBW-Programmieren" />
@@ -194,30 +239,19 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Files" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="de.dhbwka.java.exercise.io.Files" />
+    <configuration name="Race" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.dhbwka.java.exercise.classes.abstr.Race" />
       <module name="DHBW-Programmieren" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.dhbwka.java.exercise.io.*" />
+          <option name="PATTERN" value="de.dhbwka.java.exercise.classes.abstr.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
     <configuration name="TextFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="de.dhbwka.java.exercise.ui.TextFrame" />
-      <module name="DHBW-Programmieren" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="de.dhbwka.java.exercise.ui.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="TextfileViewer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="de.dhbwka.java.exercise.ui.TextfileViewer" />
       <module name="DHBW-Programmieren" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -270,18 +304,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.TextFrame" />
-      <item itemvalue="Application.Files" />
-      <item itemvalue="Application.TextfileViewer" />
       <item itemvalue="Application.CurrencyCalculator" />
       <item itemvalue="Application.EditorSimple" />
+      <item itemvalue="Application.ComponentFrame" />
+      <item itemvalue="Application.Race" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Race" />
         <item itemvalue="Application.EditorSimple" />
-        <item itemvalue="Application.CurrencyCalculator" />
-        <item itemvalue="Application.TextfileViewer" />
         <item itemvalue="Application.TextFrame" />
-        <item itemvalue="Application.Files" />
+        <item itemvalue="Application.ComponentFrame" />
+        <item itemvalue="Application.CurrencyCalculator" />
       </list>
     </recent_temporary>
   </component>
@@ -299,18 +333,28 @@
       <workItem from="1526570566421" duration="4723000" />
       <workItem from="1527105228614" duration="837000" />
       <workItem from="1527107117054" duration="5575000" />
+      <workItem from="1527142558602" duration="18000" />
+      <workItem from="1527142656655" duration="5847000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12611000" />
+    <option name="totallyTimeSpent" value="18476000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="33" width="2575" height="1415" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="33" width="1550" height="838" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.22649573" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.32872504" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
@@ -319,14 +363,14 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.281106" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22079772" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.06325654" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19798657" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info id="Learn" order="2" />
+      <window_info id="Learn" order="2" weight="0.3295302" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -336,8 +380,8 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -348,17 +392,34 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="9" />
+      <option name="time" value="14" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/de/dhbwka/java/exercise/ui/EditorSimple.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/dhbwka/java/exercise/ui/EditorSimple.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/de/dhbwka/java/exercise/ui/TextFrame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="782">
           <caret line="47" column="30" selection-start-line="42" selection-start-column="8" selection-end-line="47" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -383,9 +444,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="782">
           <caret line="47" column="30" selection-start-line="42" selection-start-column="8" selection-end-line="47" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -410,9 +468,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -420,13 +475,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/de/dhbwka/java/exercise/ui/ComponentFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="3" lean-forward="true" selection-start-line="5" selection-end-line="14" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -444,26 +492,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/de/dhbwka/java/exercise/ui/test.form">
-      <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/de/dhbwka/java/exercise/ui/test.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/de/dhbwka/java/exercise/ui/TextFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="20" selection-start-line="2" selection-end-line="11" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/dhbwka/java/exercise/ui/test.form" />
+    <entry file="file://$PROJECT_DIR$/src/de/dhbwka/java/exercise/ui/test.java" />
     <entry file="file://$PROJECT_DIR$/src/de/dhbwka/java/exercise/io/TextfileLines.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
           <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/dhbwka/java/exercise/ui/CurrencyCalculator.java" />
+    <entry file="file://$PROJECT_DIR$/src/de/dhbwka/java/exercise/ui/ComponentFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1088">
+          <caret line="65" column="51" lean-forward="true" selection-start-line="65" selection-start-column="51" selection-end-line="65" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/dhbwka/java/exercise/ui/TextFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="778">
+          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/dhbwka/java/exercise/ui/EditorSimple.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -477,21 +536,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/de/dhbwka/java/exercise/ui/CurrencyCalculator.java">
+    <entry file="file://$PROJECT_DIR$/src/de/dhbwka/java/exercise/classes/abstr/Race.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="2" selection-start-line="2" selection-end-line="11" selection-end-column="3" />
+        <state relative-caret-position="-116">
+          <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/de/dhbwka/java/exercise/ui/EditorSimple.java">
+    <entry file="file://$PROJECT_DIR$/src/de/dhbwka/java/exercise/classes/abstr/Vehicle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-104">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="331">
+          <caret line="63" column="139" selection-start-line="63" selection-start-column="139" selection-end-line="63" selection-end-column="139" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#379#380#0" expanded="true" />
-            <element signature="e#415#416#0" expanded="true" />
+            <element signature="e#236#237#0" expanded="true" />
+            <element signature="e#285#286#0" expanded="true" />
+            <element signature="e#503#504#0" expanded="true" />
+            <element signature="e#574#575#0" expanded="true" />
+            <element signature="e#1131#1132#0" expanded="true" />
+            <element signature="e#1174#1175#0" expanded="true" />
+            <element signature="e#1263#1264#0" expanded="true" />
+            <element signature="e#1307#1308#0" expanded="true" />
+            <element signature="e#1368#1369#0" expanded="true" />
+            <element signature="e#1418#1419#0" expanded="true" />
+            <element signature="e#1515#1516#0" expanded="true" />
+            <element signature="e#1559#1560#0" expanded="true" />
+            <element signature="e#1835#1836#0" expanded="true" />
+            <element signature="e#1875#1876#0" expanded="true" />
+            <element signature="e#1930#1931#0" expanded="true" />
+            <element signature="e#1980#1981#0" expanded="true" />
           </folding>
         </state>
       </provider>
