@@ -12,5 +12,5 @@ package de.dhbwka.java.exercise.ui.event;
  */
 
 public class CurrencyCalculator {
-
+ // TODO
 }

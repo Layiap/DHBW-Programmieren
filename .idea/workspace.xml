@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5ce059aa-446e-4de5-abbd-e1fd1e127065" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/de/dhbwka/java/exercise/ui/event/CurrencyCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/de/dhbwka/java/exercise/collections/BinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/de/dhbwka/java/exercise/enums/Months.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/de/dhbwka/java/exercise/ui/event/CurrencyCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/de/dhbwka/java/exercise/ui/event/CurrencyCalculator.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,26 +19,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="TextFrame.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/de/dhbwka/java/exercise/ui/TextFrame.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CurrencyCalculator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/de/dhbwka/java/exercise/ui/event/CurrencyCalculator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -70,6 +52,8 @@
         <option value="$PROJECT_DIR$/src/de/dhbwka/java/exercise/classes/abstr/Vehicle.java" />
         <option value="$PROJECT_DIR$/src/de/dhbwka/java/exercise/ui/TextFrame.java" />
         <option value="$PROJECT_DIR$/src/de/dhbwka/java/exercise/ui/event/CurrencyCalculator.java" />
+        <option value="$PROJECT_DIR$/src/de/dhbwka/java/exercise/collections/BinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/de/dhbwka/java/exercise/enums/Months.java" />
       </list>
     </option>
   </component>
@@ -83,10 +67,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="46" />
-    <option name="y" value="26" />
-    <option name="width" value="1939" />
-    <option name="height" value="1049" />
+    <option name="x" value="45" />
+    <option name="y" value="24" />
+    <option name="width" value="1941" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -96,8 +80,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -129,7 +114,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="exercise" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="collections" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DHBW-Programmieren" type="b2602c69:ProjectViewProjectNode" />
@@ -137,35 +122,12 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="exercise" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="abstr" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DHBW-Programmieren" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DHBW-Programmieren" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="exercise" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DHBW-Programmieren" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DHBW-Programmieren" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="exercise" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
-              <item name="event" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DHBW-Programmieren" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="enums" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -191,25 +153,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Race">
-    <configuration name="ComponentFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="de.dhbwka.java.exercise.ui.ComponentFrame" />
+  <component name="RunManager" selected="Application.Months">
+    <configuration name="BinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.dhbwka.java.exercise.collections.BinaryTree" />
       <module name="DHBW-Programmieren" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.dhbwka.java.exercise.ui.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="CurrencyCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="de.dhbwka.java.exercise.ui.CurrencyCalculator" />
-      <module name="DHBW-Programmieren" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="de.dhbwka.java.exercise.ui.*" />
+          <option name="PATTERN" value="de.dhbwka.java.exercise.collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -221,6 +172,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="de.dhbwka.java.exercise.ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Months" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.dhbwka.java.exercise.enums.Months" />
+      <module name="DHBW-Programmieren" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.dhbwka.java.exercise.enums.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -290,18 +252,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.TextFrame" />
-      <item itemvalue="Application.CurrencyCalculator" />
       <item itemvalue="Application.EditorSimple" />
-      <item itemvalue="Application.ComponentFrame" />
       <item itemvalue="Application.Race" />
+      <item itemvalue="Application.BinaryTree" />
+      <item itemvalue="Application.Months" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Months" />
+        <item itemvalue="Application.BinaryTree" />
         <item itemvalue="Application.Race" />
         <item itemvalue="Application.EditorSimple" />
         <item itemvalue="Application.TextFrame" />
-        <item itemvalue="Application.ComponentFrame" />
-        <item itemvalue="Application.CurrencyCalculator" />
       </list>
     </recent_temporary>
   </component>
@@ -321,11 +283,13 @@
       <workItem from="1527107117054" duration="5575000" />
       <workItem from="1527142558602" duration="18000" />
       <workItem from="1527142656655" duration="9790000" />
+      <workItem from="1529507657916" duration="233000" />
+      <workItem from="1529507953540" duration="4341000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22419000" />
+    <option name="totallyTimeSpent" value="26993000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -337,8 +301,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="33" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="33" width="2575" height="1415" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.22649573" />
@@ -350,13 +313,12 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.22079772" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2204301" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26174498" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26161656" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Learn" order="2" weight="0.3295302" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -369,6 +331,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -383,6 +346,34 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/de/dhbwka/java/exercise/ui/TextFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/dhbwka/java/exercise/ui/event/CurrencyCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/dhbwka/java/exercise/ui/TextFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/dhbwka/java/exercise/ui/event/CurrencyCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/de/dhbwka/java/exercise/ui/EditorSimple.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -551,14 +542,42 @@
     <entry file="file://$PROJECT_DIR$/src/de/dhbwka/java/exercise/ui/event/CurrencyCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/de/dhbwka/java/exercise/ui/TextFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
+        <state relative-caret-position="680">
           <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/dhbwka/java/exercise/collections/BinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-485">
+          <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="22" />
+          <caret line="50" column="21" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="22" />
+          <caret line="49" column="21" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="22" />
+          <caret line="48" column="21" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="22" />
+          <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#351#352#0" expanded="true" />
+            <element signature="e#385#386#0" expanded="true" />
+            <element signature="e#412#413#0" expanded="true" />
+            <element signature="e#440#441#0" expanded="true" />
+            <element signature="e#1459#1466#0" expanded="true" />
+            <element signature="e#1801#1802#0" expanded="true" />
+            <element signature="e#1825#1826#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/dhbwka/java/exercise/enums/Months.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="891">
+          <caret line="33" column="24" lean-forward="true" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -627,7 +646,7 @@
       </state>
       <state key="ProjectJDKs.UI">
         <settings>
-          <last-edited>10</last-edited>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
