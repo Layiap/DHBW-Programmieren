@@ -46,10 +46,11 @@ public class BinaryTree<T extends Comparable> implements Comparable<T>{
     public List<T> traverse() {
 
         Set<T> list = new TreeSet<T>();
-        list.add(this.getValue());
+
         if (left != null) {
             list.addAll(left.traverse());
         }
+        list.add(this.getValue());
         if (right != null) {
             list.addAll(right.traverse());
         }
