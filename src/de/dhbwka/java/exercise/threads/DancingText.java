@@ -34,7 +34,7 @@ public class DancingText extends JFrame implements Runnable {
 
         String text = "Dance Dance Dance";
 
-        Font courier = new Font ("Courier", Font.BOLD, 200);
+        Font courier = new Font ("Consolas", Font.BOLD, 200);
         g.setFont(courier);
 
         int pos = 20;
