@@ -20,6 +20,8 @@ public class DancingText extends JFrame implements Runnable {
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 
+
+
     public static void main(String[] args) {
         DancingText dc = new DancingText();
         dc.setVisible(true);
